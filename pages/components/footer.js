@@ -3,6 +3,7 @@ export default function Footer() {
   return (
     <div>
       <div className="footer-div" >
+   
         <p>Address:<br />
           House No 16 ( Level 5)
           Block - A
@@ -13,6 +14,11 @@ export default function Footer() {
           Phone:+88 09 678 71 1971
           USA Phone +14158002851</p>
         <p>&copy; Copyright By<span style={{ fontStyle: 'italic' }}> Abu Sayeed Mandal</span></p>
+       <a href="#"> <i class="fab fa-facebook-square"></i></a>
+       <a href="#"> <i class="fab fa-linkedin"></i></a>
+       <a href="#">  <i class="fab fa-twitter-square"></i></a>
+
+       
       </div>
     </div>
   )

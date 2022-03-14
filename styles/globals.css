@@ -121,7 +121,7 @@ align-items: center;
 .footer-div{
 background-color: black;
 color: white;
-height: 150px;
+height: 190px;
 align-items: center;
 width: 100%;
 padding: 20px 10%;
@@ -129,7 +129,18 @@ margin-top: 100px;
 text-align: center;
 }
 
+.fab {
+  font-size: 25px;
+  margin: 0 10px;
+  color: white;
+  background-color: black;
+  transition: .8s;
 
+}
+
+.fab:hover{
+transform: scale(1.5);
+}
 
 /* service page styling here */
 
