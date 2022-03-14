@@ -6,11 +6,192 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
 
 * {
   box-sizing: border-box;
+}
+
+.navbar
+{
+margin: 0 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+}
+
+.navbar-heading
+{
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 90px;
+}
+.navbar-link-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  
+}
+
+.navbar-link-container div{
+  height: 30px;
+  width: 120px;
+  background-color: #3e3299;
+  margin: 0 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  
+}
+
+.navbar-link-container div:hover   {
+
+  background-color: white;
+
+ 
+  
+}
+ .navbar-link
+{
+  color: white;
+  text-decoration: none;
+
+}
+.navbar-link-container div:hover .navbar-link
+{
+  color: #5046a1;
+  text-decoration: none;
+
+}
+
+/* acivities section start here */
+
+.acivities-header
+
+{
+ 
+
+  text-align: center;
+  color: black;
+  font-weight: bolder;
+}
+
+
+.card-container{
+
+  display: flex;
+  justify-content: center;
+}
+.card{
+   background-color: #ffe6f0;
+  border-radius: 15px;
+   width: 28%;
+     margin: 10px 10px;
+      padding: 15px; 
+}
+
+/* feature-container starts her */
+
+.feature-container{
+  margin-left: 9%;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  column-gap: 7%;
+  row-gap: 5%;
+}
+
+.feature-card{
+  width:100%;
+  border-radius: 15px;
+  margin: 0 auto;
+
+}
+
+.feature-img{
+  width: 100%;;
+  border-radius: 15px;
+}
+
+.footer-div{
+background-color: black;
+color: white;
+height: 150px;
+align-items: center;
+width: 100%;
+padding: 20px 10%;
+margin-top: 100px;
+text-align: center;
+}
+/*--------------------------------------------
+-------------- design for mobile -------------
+---------------------------------------------*/
+
+
+
+@media (max-width: 700px) {
+  .navbar-items{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-link-container {
+  
+    flex-direction: column;
+
+    width: 100%;
+    height: 120px;  
+  }
+
+ .navbar-link-container div{
+  
+   width: 100%;
+   margin: 4px 0;   
+  }
+  .navbar
+  {
+  flex-direction: column; 
+  }
+
+  .card-container{
+
+    display:block;
+    justify-content: center;
+  
+  }
+
+
+
+.card{
+  width: 95%;
+}
+
+
+.feature-container{
+  margin:40px  4%  50px 4%;
+  display: block;
+
+ 
+}
+
+
+.feature-card{
+  width:100%;
+  border-radius: 15px;
+  margin: 60px auto;
+
+}
+
+.footer-div{
+ 
+  height: 220px;
+  
+  }
+
+
+
 }
