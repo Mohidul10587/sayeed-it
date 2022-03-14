@@ -1,11 +1,13 @@
 
 import Link from "next/link"
-
+import Head from 'next/head'
 
 export default function Contact() {
     return (
       <div>
-
+<Head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</Head>
 <div style={{ backgroundColor: "#5046a1" }}>
 
 <div className="navbar">
@@ -78,6 +80,9 @@ export default function Contact() {
           Phone:+88 09 678 71 1971
           USA Phone +14158002851</p>
         <p>&copy; Copyright By<span style={{ fontStyle: 'italic' }}> Abu Sayeed Mandal</span></p>
+        <a href="#"> <i class="fab fa-facebook-square"></i></a>
+       <a href="#"> <i class="fab fa-linkedin"></i></a>
+       <a href="#">  <i class="fab fa-twitter-square"></i></a>
       </div>
    
       </div>

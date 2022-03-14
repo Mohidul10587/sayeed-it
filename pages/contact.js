@@ -1,9 +1,7 @@
 
 
 import Link from "next/link"
-
-
-
+import Head from 'next/head'
 
 
 
@@ -11,7 +9,9 @@ import Link from "next/link"
 export default function Contact() {
     return (
       <div>
-
+<Head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</Head>
 <div style={{ backgroundColor: "#5046a1" }}>
 
 
@@ -39,7 +39,7 @@ export default function Contact() {
 <div style={{color:'black',fontSize:'25px',textAlign:'center'}}>_____________</div>
 
 
-<h3 style={{textAlign:'center'}}>Say Hello ! Dont be shy</h3>
+<h3 style={{textAlign:'center'}}>Say Hello ! Don't be shy</h3>
 
 
 
@@ -66,7 +66,7 @@ export default function Contact() {
 
 
 
-<div className="footer-div" style={{marginTop:'0'}} >
+<div className="footer-div" style={{marginTop:'50px'}} >
         <p>Address:<br />
           House No 16 ( Level 5)
           Block - A
@@ -77,6 +77,9 @@ export default function Contact() {
           Phone:+88 09 678 71 1971
           USA Phone +14158002851</p>
         <p>&copy; Copyright By<span style={{ fontStyle: 'italic' }}> Abu Sayeed Mandal</span></p>
+        <a href="#"> <i class="fab fa-facebook-square"></i></a>
+       <a href="#"> <i class="fab fa-linkedin"></i></a>
+       <a href="#">  <i class="fab fa-twitter-square"></i></a>
       </div>
 
       </div>
