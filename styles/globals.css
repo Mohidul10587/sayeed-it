@@ -114,6 +114,7 @@ align-items: center;
 
 .feature-img{
   width: 100%;;
+  
   border-radius: 15px;
 }
 
@@ -127,6 +128,44 @@ padding: 20px 10%;
 margin-top: 100px;
 text-align: center;
 }
+
+
+
+/* service page styling here */
+
+.service-div{
+
+  display:flex;
+  align-items: center;
+  margin-top: 30px;
+  background-color: #756eaf;
+  color: white;
+  padding: 20px;
+}
+
+
+
+.service-div-headeing{
+  width:50%;
+  display:flex;
+  justify-content:center
+}
+
+
+.service-div-img{
+  width: 50%;
+  height: 130px;
+}
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------
 -------------- design for mobile -------------
 ---------------------------------------------*/
@@ -192,6 +231,18 @@ text-align: center;
   
   }
 
+/* service page starting here */
 
+  .service-div{
+
+    display:block;
+   
+  }
+
+
+
+  .service-div-img{
+    width: 100%;
+  }
 
 }
