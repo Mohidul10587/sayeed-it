@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Navbar from './components/navbar'
-import Banner from './components/banner'
+import Banner from './banner'
 import Activities from './components/activities'
 import FeaturedProject from './components/featuredProject'
 import Footer from './components/footer'
