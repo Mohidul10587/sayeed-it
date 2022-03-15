@@ -46,7 +46,7 @@ export default function Contact() {
  <div className="service-div-headeing"> <h3>Software Testing as a service</h3></div>
 </div>
 <div className="service-div">
-  <img  className="service-div-img" src="https://int.lead.bureauveritas.com/var/images/1544450735-image.png"/>
+  <img  className="service-div-img" src="https://study.com/cimages/videopreview/videopreview-full/yufzq3jy7k.jpg"/>
  <div className="service-div-headeing"> <h3>System Manegment & Impliment</h3></div>
 </div>
 <div className="service-div">

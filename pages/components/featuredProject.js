@@ -14,7 +14,7 @@ export default function FeaturedProject() {
                     <div>
                     <div className="feature-container"  >
                         <div className="feature-card">
-                            <div >
+                            <div className="feature-img-div" >
                                 <img className='feature-img' src="https://www.dream71.com/wp-content/uploads/2021/07/Mock_3-1024x695.jpg" alt="..." />
                             </div>
                             <div>
@@ -27,7 +27,7 @@ export default function FeaturedProject() {
 
 
                         <div className="feature-card">
-                            <div >
+                            <div  className="feature-img-div">
                                 <img className='feature-img' src="https://st2.depositphotos.com/1032463/7811/i/950/depositphotos_78113092-stock-photo-programmer-profession-man-writing-programming.jpg" alt="..." />
                             </div>
                             <div>
@@ -40,7 +40,7 @@ export default function FeaturedProject() {
 
 
                         <div className="feature-card">
-                            <div >
+                            <div  className="feature-img-div">
                                 <img className='feature-img' src="https://st.depositphotos.com/1720162/1817/i/950/depositphotos_18177429-stock-photo-web-design-concept.jpg" alt="..." />
                             </div>
                             <div>
@@ -53,7 +53,7 @@ export default function FeaturedProject() {
 
 
                         <div className="feature-card">
-                            <div >
+                            <div  className="feature-img-div">
                                 <img className='feature-img' src="https://st2.depositphotos.com/1003924/7939/i/950/depositphotos_79399514-stock-photo-responsive-web-design.jpg" alt="..." />
                             </div>
                             <div>

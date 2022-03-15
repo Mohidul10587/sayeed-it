@@ -14,9 +14,9 @@ export default function Footer() {
           Phone:+88 09 678 71 1971
           USA Phone +14158002851</p>
         <p>&copy; Copyright By<span style={{ fontStyle: 'italic' }}> Abu Sayeed Mandal</span></p>
-       <a href="#"> <i class="fab fa-facebook-square"></i></a>
-       <a href="#"> <i class="fab fa-linkedin"></i></a>
-       <a href="#">  <i class="fab fa-twitter-square"></i></a>
+       <a href="#"> <i className="fab fa-facebook-square"></i></a>
+       <a href="#"> <i className="fab fa-linkedin"></i></a>
+       <a href="#">  <i className="fab fa-twitter-square"></i></a>
 
        
       </div>
