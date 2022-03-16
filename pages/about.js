@@ -39,7 +39,7 @@ export default function Contact() {
     
 <div className="about-top-div">
   <p className="about-header"> WE ARE ALWAYS FOR YOUR AMAZING SOFTWARE - ALL IN ONE PLACE </p>
-  <img style={{width:'100%'}} src="https://mavin-solutions.com/wp-content/uploads/2020/11/CUSTOM-WEB-APP-DEVELOPMENT.svg" />
+  <img className="img" src="https://mavin-solutions.com/wp-content/uploads/2020/11/CUSTOM-WEB-APP-DEVELOPMENT.svg" />
 </div>
 
 
