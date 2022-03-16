@@ -40,18 +40,8 @@ export default function Contact() {
 
       <h3 style={{ textAlign: 'center' }}>Say Hello ! Don't be shy</h3>
 
+      <div style={{width:'50%',padding:'20px'}}>
       <div>
-        <div style={{ width: '40%', margin: '0 auto', textAlign: 'center' }}>
-          <p style={{ textAlign: 'center' }}>Just drop us a line with some description of what you are looking for and we will take it from there.</p>
-        </div>
-
-        <div style={{ width: '30%', margin: '10px auto' }}>
-
-          <label>Email:</label><p></p>
-          <input type="email" />
-          <p></p>
-          <label>Write Your Massage :</label><p></p>
-          <textarea></textarea>
 
 
         </div>
