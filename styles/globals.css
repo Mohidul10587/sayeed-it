@@ -160,6 +160,27 @@ text-align: center;
 transform: scale(1.5);
 }
 
+
+/* about div start here */
+
+.about-top-div{
+
+  display:flex ;
+  padding:0 50px;
+}
+
+.about-header{
+font-size:55px ;
+font-weight:200;
+}
+
+
+.about-items{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+ 
+
 /* --------service page styling here ------------*/
 
 .service-div{
@@ -187,7 +208,6 @@ transform: scale(1.5);
 }
 
 
- 
 
 /*--------------------------------------------
 -------------- design for mobile -------------
@@ -263,6 +283,16 @@ transform: scale(1.5);
   height: 250px;
   }
 
+.about-div{
+  display: block;
+}
+
+
+
+
+
+
+
 /* service page starting here */
 
   .service-div{
@@ -270,12 +300,23 @@ transform: scale(1.5);
   }
 
 
-  .service-div-img{
-    width: 100%;
+
+  .about-top-div{
+
+    display:block ;
+    padding:0 50px;
   }
-
-
- 
   
+  
+ 
+  .about-header{
+    font-size:30px ;
 
+    }
+    
+    .about-items{
+      display: block;
+  
+    }
+     
 }

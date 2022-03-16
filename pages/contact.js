@@ -27,7 +27,6 @@ export default function Contact() {
       <div><Link href='/contact'><a className="navbar-link" href="#">Contact us</a></Link></div>
       <div><Link href='/about'><a className="navbar-link" href="#">About Us</a></Link></div>
       <div><Link href='/service'><a className="navbar-link" href="#">Services</a></Link></div>
-    
 
   </div>
 

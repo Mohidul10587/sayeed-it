@@ -6,7 +6,7 @@ export default function Banner() {
       <div>
 
     <div>
-      <Image src='/banner.jpg' height="450px" width="1200px"/>
+      <Image src='/banner.jpg' height="550px" width="1200px"/>
     </div>
   </div>
     )
